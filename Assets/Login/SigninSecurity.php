@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Redirect based on the user's role
         if ($user['role'] === 'admin') {
-            header('Location: /Assets/Profile_admin/userProfile.php');
+            header('Location: /Assets/Admin_Dashboard/Dashboard.html');
         } else {
             header('Location: /Assets/Profile_Staff/userProfileSecurity.php');
         }
