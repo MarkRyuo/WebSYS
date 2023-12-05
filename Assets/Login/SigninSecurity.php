@@ -23,9 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Redirect based on the user's role
         if ($user['role'] === 'admin') {
-            header('Location: ../Assets/Profile_admin/userProfile.php');
+            header('Location: /Assets/Profile_admin/userProfile.php');
         } else {
-            header('Location: ../Assets/Profile_Staff/userProfileSecurity.php');
+            header('Location: /Assets/Profile_Staff/userProfileSecurity.php');
         }
         exit;
     } else {
@@ -67,10 +67,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </section>
     
         <div class="blank">
-          <div class="sub-blank">
+          <!-- <div class="sub-blank">
             <img src="Batstatelogo.png" alt="Bsu Logo" style="width: 140px; height: 130px;">
             <h1 style="color: #fff; font-size: 3rem;">Lost and Found</h1>
-          </div>
+          </div> -->
         </div>
   </div>
 </body>
