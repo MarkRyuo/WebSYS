@@ -4,8 +4,9 @@
 :root {
   --bg-color-nav: hsl(343, 79%, 36%);
   --bg-Color: hsl(0, 0%, 100%);
-  --bg-color-Aside: hsl(340, 1%, 44%);
+  --bg-color-Aside: hsl(0, 0%, 48%);
   --bg-color-Aside-logo: hsl(343, 77%, 31%);
+  --bg-color-Aside-shadow: hsl(0, 0%, 61%);
 }
 
 * {
@@ -62,12 +63,12 @@ body {
   align-content: center;
   gap: 5vh;
 
-  border: 1px solid black ;
+  /* border: 1px solid black ; */
 
   width: 100vw;
   height: 80vh;
 
-  margin-top: 10vh;
+  margin-top: 8vh;
 
 }
 
@@ -82,8 +83,10 @@ body {
   box-shadow: 2px 2px 7px var(--bg-color-Aside-shadow);
 
   width: 30vw;
-  height: 55vh;
+  height: 60vh;
   gap: 1.5rem;
+
+  border-radius: 20px;
 }
 
 .input input {
