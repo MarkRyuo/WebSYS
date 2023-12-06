@@ -59,12 +59,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <a href="#" class="a-forgot lead text-primary">Forgot password?</a>
       <!-- <button type="button" class="btn text-white" onclick="login()">Login </button> -->
       <input type="submit" value="Signin" class="btn text-white">
-      
+
   </form>
 
  </section>
 
- <div id="loginFailureMessage" class="login-failure-message"></div>
+ <div id="loginFailureMessage" class="login-failure-message">
+ </div>
 
 
 
