@@ -50,14 +50,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
   <section class="form-parent">
+
   <form id="loginForm" method="post" class="form" onsubmit="login()">
-    <p class="heading display-5b">Login</p>
-    <input class="input display-7" type="text" id="username" name="username" placeholder="Username" required>
-    <input class="input display-7" type="password" id="password" name="password" placeholder="Password" required>
-    <a href="#" class="a-forgot lead text-primary">Forgot password?</a>
-    <!-- <button type="button" class="btn text-white" onclick="login()">Login </button> -->
-    <input type="submit" value="Signin" class="btn text-white">
+
+      <p class="heading display-5b">Login</p>
+      <input class="input display-7" type="text" id="username" name="username" placeholder="Username" required>
+      <input class="input display-7" type="password" id="password" name="password" placeholder="Password" required>
+      <a href="#" class="a-forgot lead text-primary">Forgot password?</a>
+      <!-- <button type="button" class="btn text-white" onclick="login()">Login </button> -->
+      <input type="submit" value="Signin" class="btn text-white">
+      
   </form>
+
  </section>
 
  <div id="loginFailureMessage" class="login-failure-message"></div>
