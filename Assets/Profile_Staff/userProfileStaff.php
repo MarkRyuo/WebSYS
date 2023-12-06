@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 if (!isset($_SESSION['username'])) {
-  header('Location: userProfileSecurity.php');
+  header('Location: userProfileStaff.php');
   exit;
 }
 

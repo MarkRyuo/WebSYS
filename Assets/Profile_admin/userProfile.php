@@ -19,7 +19,7 @@ if (!isset($_SESSION['username'])) {
 
 if ($_SESSION['role'] !== 'admin') {
   // Redirect if the user is not an admin
-  header('Location: /UserProfile Security/userProfileSecurity.php');
+  header('Location: /UserProfile Security/userProfileStaff.php');
   exit;
 }
 
@@ -74,5 +74,5 @@ $usersign = $_SESSION['usersign'];
     window.location.href = "/Assets/Staff_Dashboard/Dashboard.html";
   });
   </script>
-  
+
 </html>
