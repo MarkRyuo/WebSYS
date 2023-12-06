@@ -72,7 +72,7 @@ $usersign = $_SESSION['usersign'];
 
   Back.addEventListener("click", function() {
     // Redirect to "/User-Profile/userProfile.php" directly
-    window.location.href = "/Assets/Staff_Dashboard/Dashboard.html";
+    window.location.href = "/Assets/Admin_Dashboard/Dashboard.html";
   });
   </script>
 
