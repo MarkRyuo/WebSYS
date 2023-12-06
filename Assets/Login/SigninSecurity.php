@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
   <section class="form-parent">
-    <form id="loginForm" method="post" class="form">
+  <form id="loginForm" method="post" class="form" onsubmit="login()">
     <p class="heading display-5b">Login</p>
     <input class="input display-7" type="text" id="username" name="username" placeholder="Username" required>
     <input class="input display-7" type="password" id="password" name="password" placeholder="Password" required>
@@ -68,5 +68,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   
 </body>
-<!-- <script src="/Login/Login.js"></script> -->
+<script>
+    function login() {
+        // Assuming you have some validation or additional logic here
+
+        // Submit the form
+        document.getElementById("loginForm").submit();
+    }
+</script>
 </html>
