@@ -34,7 +34,7 @@ body {
   
   margin-top: 0.5vh;
   width: 100vw;
-  height: 100vh; 
+  height: 90vh; 
 }
 
 /* navigation Design */
@@ -127,7 +127,7 @@ body {
   margin-right: 17.5vw;
 }
 
-.input a {
+/* .input a {
   font-size: 1.2rem;
   color: var(--bg-color-Aside-shadow);
   text-decoration: none;
@@ -137,4 +137,4 @@ body {
 .input a:hover {
   color: blue;
   text-decoration:underline;
-}
+} */
