@@ -59,7 +59,5 @@ $usersign = $_SESSION['usersign'];
 
   </main>
 </body>
-  <!-- Connection in Home.js -->
-  <script src="/assets/js/Logout.js"></script>
-  <script src="/Assets/Aside/btn-aside.js"></script>
+  <script src="/Logout.js"></script>
 </html>
