@@ -45,7 +45,7 @@ $usersign = $_SESSION['usersign'];
         </div>
         
       <form class="input" >
-        <h1>Welcome Staff!</h1>
+        <h1 style="color: rgb(90, 90, 90);" >Welcome Staff!</h1>
 
         <label for="fullName" class="fullName">User:</label>
         <input type="text" id="fullName" name="fullName" value="<?php echo htmlspecialchars($usersign); ?>" readonly>

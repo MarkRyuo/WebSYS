@@ -3,10 +3,10 @@
 
 :root {
   --bg-color-nav: hsl(343, 79%, 36%);
-  --bg-Color: hsl(347, 100%, 98%);
-  --bg-color-Aside: hsl(343, 79%, 36%);
+  --bg-Color: hsl(0, 0%, 100%);
+  --bg-color-Aside: hsl(0, 0%, 60%);
   --bg-color-Aside-logo: hsl(343, 77%, 31%);
-  --bg-color-Aside-shadow: hsl(343, 78%, 18%);
+  --bg-color-Aside-shadow: hsl(0, 0%, 61%);
 }
 
 * {
@@ -33,7 +33,7 @@ body {
   /* border: 1px solid black; */
   
   margin-top: 0.5vh;
-  width: 80vw;
+  width: 100vw;
   height: 90vh; 
 }
 
@@ -65,8 +65,10 @@ body {
 
   /* border: 1px solid black ; */
 
-  width: 80vw;
-  height: 70vh;
+  width: 100vw;
+  height: 80vh;
+
+  margin-top: 8vh;
 
 }
 
@@ -77,12 +79,14 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   
-  border: 1px solid var(--bg-color-Aside);
+  /* border: 1px solid var(--bg-color-Aside); */
   box-shadow: 2px 2px 7px var(--bg-color-Aside-shadow);
 
   width: 30vw;
-  height: 55vh;
+  height: 60vh;
   gap: 1.5rem;
+
+  border-radius: 20px;
 }
 
 .input input {
@@ -123,7 +127,7 @@ body {
   margin-right: 17.5vw;
 }
 
-.input a {
+/* .input a {
   font-size: 1.2rem;
   color: var(--bg-color-Aside-shadow);
   text-decoration: none;
@@ -133,4 +137,4 @@ body {
 .input a:hover {
   color: blue;
   text-decoration:underline;
-}
+} */
