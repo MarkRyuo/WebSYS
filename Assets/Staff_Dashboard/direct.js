@@ -29,7 +29,7 @@
     if (result) {
       // User clicked "OK" (Yes), redirect to a specific URL
       alert("You have been logged out!");
-      window.location.href = "/Login/login.html";  
+      window.location.href = "/Assets/Login/Logins.php";  
     } else {
       // User clicked "Cancel", do nothing or handle accordingly
     }
