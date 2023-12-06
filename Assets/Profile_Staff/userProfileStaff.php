@@ -64,9 +64,6 @@ $usersign = $_SESSION['usersign'];
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" value="<?php echo htmlspecialchars($username); ?>" readonly>
 
-        <!-- For admin only the Register -->
-        <!-- <a href="#">Register a security?</a>  -->
-        <a href="/One/ClaimedItems.php">View Claimed Item</a>
       </form>
 
     </section>
