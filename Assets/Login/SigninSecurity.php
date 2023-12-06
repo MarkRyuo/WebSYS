@@ -37,44 +37,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="img/x-icon" href="/Assets/Images/Batstatelogo.png">
-      <link rel="stylesheet" href="SigninSecurity.css">
-      <link rel="stylesheet" href="stylecursor.css">
-      <title>Signin Seurity | Lost and Found</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Assets/Login/login.css">
+  <!-- This is Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" type="img/x-icon" href="#">
+  <title>Login</title>
+</head>
+<body>
 
-  <div class="container">
+  <section class="form-parent">
+    <form id="loginForm" method="post" class="form">
+    <p class="heading display-5b">Login</p>
+    <input class="input display-7" type="text" id="username" name="username" placeholder="Username" required>
+    <input class="input display-7" type="password" id="password" name="password" placeholder="Password" required>
+    <a href="#" class="a-forgot lead text-primary">Forgot password?</a>
+    <!-- <button type="button" class="btn text-white" onclick="login()">Login </button> -->
+    <input type="button" value="Signin" class="btn text-white">
+  </form>
+ </section>
 
-    <section class="sec-form">
+ <div id="loginFailureMessage" class="login-failure-message"></div>
 
-      <form id="loginForm" method="post" class="Form-Signin">
-         <h1>Signin</h1>
 
-         <label for="username">Username:</label>
-         <input type="text" name="username" id="username" required><br>
 
-         <label for="password">Password:</label>
-         <input type="password" name="password" id="password" required><br>
-
-        <input type="submit" value="Signin" class="sign-btn">
-      </form>
-
-    </section>
-    
-        <div class="blank">
-          <!-- <div class="sub-blank">
-            <img src="Batstatelogo.png" alt="Bsu Logo" style="width: 140px; height: 130px;">
-            <h1 style="color: #fff; font-size: 3rem;">Lost and Found</h1>
-          </div> -->
-        </div>
-  </div>
+<!-- This is CDN Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
 </body>
-      <script>
-        // You can add client-side validation or other functionalities here.
-      </script>
+<!-- <script src="/Login/Login.js"></script> -->
 </html>
