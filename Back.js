@@ -1,7 +1,7 @@
   // This is Btn Logout 
 
 
-  function confirmLogout() {
+  function confirmBack() {
     // Display a confirmation dialog
     var result = window.confirm("Are you sure you want to logout?");
 

@@ -39,13 +39,13 @@ $usersign = $_SESSION['usersign'];
     <section class="parent-User">
       
         <div class="user-button-Log-out">
-          <button class="button2" onclick="confirmLogout()">
+          <button class="button2" onclick="confirmBack()">
                 Logout
           </button> 
         </div>
         
       <form class="input" >
-        <h1>Welcome Security!</h1>
+        <h1>Welcome Staff!</h1>
 
         <label for="fullName" class="fullName">User:</label>
         <input type="text" id="fullName" name="fullName" value="<?php echo htmlspecialchars($usersign); ?>" readonly>
@@ -59,5 +59,5 @@ $usersign = $_SESSION['usersign'];
 
   </main>
 </body>
-  <script src="/Logout.js"></script>
+  <script src="/Back.js"></script>
 </html>
