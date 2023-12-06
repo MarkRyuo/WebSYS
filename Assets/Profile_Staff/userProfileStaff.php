@@ -39,8 +39,8 @@ $usersign = $_SESSION['usersign'];
     <section class="parent-User">
       
         <div class="user-button-Log-out">
-          <button class="button2" onclick="confirmBack()">
-                Logout
+          <button class="button2" id="Back">
+                Back
           </button> 
         </div>
         
@@ -59,5 +59,14 @@ $usersign = $_SESSION['usersign'];
 
   </main>
 </body>
-  <script src="/Back.js"></script>
+  <script>
+      // This is Btn Logout 
+
+  var Back = document.getElementById("Back");
+
+  Back.addEventListener("click", function() {
+    // Redirect to "/User-Profile/userProfile.php" directly
+    window.location.href = "/Assets/Staff_Dashboard/Dashboard.html";
+  });
+  </script>
 </html>
