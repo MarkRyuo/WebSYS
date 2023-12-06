@@ -34,6 +34,7 @@ $usersign = $_SESSION['usersign'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Assets/Profile_admin/Userprofile.css">
+    <link rel="stylesheet" href="/Assets/Profile_admin/Logout.css">
     <title>User Profile | Admin</title>
 </head>
 <body>
