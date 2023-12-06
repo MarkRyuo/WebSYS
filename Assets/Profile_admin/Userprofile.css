@@ -4,7 +4,7 @@
 :root {
   --bg-color-nav: hsl(343, 79%, 36%);
   --bg-Color: hsl(0, 0%, 100%);
-  --bg-color-Aside: hsl(0, 0%, 48%);
+  --bg-color-Aside: hsl(0, 0%, 60%);
   --bg-color-Aside-logo: hsl(343, 77%, 31%);
   --bg-color-Aside-shadow: hsl(0, 0%, 61%);
 }
@@ -79,7 +79,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   
-  border: 1px solid var(--bg-color-Aside);
+  /* border: 1px solid var(--bg-color-Aside); */
   box-shadow: 2px 2px 7px var(--bg-color-Aside-shadow);
 
   width: 30vw;
