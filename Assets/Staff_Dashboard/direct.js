@@ -1,7 +1,7 @@
 
 
   function redirectTouserprofile() {
-    window.location.href = '/Assets/Profile_Staff/userProfileSecurity.php'; // Todo actual file path
+    window.location.href = '/Assets/Profile_Staff/userProfileStaff.php'; // Todo actual file path
   }
 
   function redirectToproducts() {
