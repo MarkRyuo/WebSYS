@@ -70,8 +70,6 @@ $usersign = $_SESSION['usersign'];
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" value="<?php echo htmlspecialchars($username); ?>" readonly>
 
-        <a href="/Registers/Register.html">Register a Employee?</a> <!--Todo -->
-        <a href="/One/ClaimedItems.php">View Claimed Item</a>
       </form>
 
     </section>
